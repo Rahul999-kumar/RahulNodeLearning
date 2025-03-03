@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Web Server</title>
+    <script src="/js/scripts.js"></script>
+</head>
+<body>
+    {{>header}}
+    <p>Web Server is running on port {{port}}.</p>
+    <p>This is my {{title}}.</p>
+    <p>Author of the application is: {{name}}.</p>
+
+    <form>
+        <input type="text" name="name" placeholder="Enter your name" />
+        <input type="submit" value="Search" />
+    </form>
+    {{>footer}}
+    <script src="/js/scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,100 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+header {
+  background: #333;
+  color: #fff;
+  padding-top: 10px;
+  min-height: 70px;
+  border-bottom: 1px solid #eaeaea;
+}
+ header a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+ }
+
+header h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  line-height: 70px;
+  float: left;
+}
+
+nav {
+  float: right;
+  padding: 20px 0;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 15px;
+}
+
+nav a:hover {
+  color: #f4f4f4;
+}
+
+.showcase {
+  background: url('../img/showcase.jpg') no-repeat center center;
+  background-size: cover;
+  height: 300px;
+  text-align: center;
+  color: #fff;
+}
+
+.showcase h1 {
+  margin-top: 100px;
+  font-size: 55px;
+  line-height: 1.2;
+}
+
+.showcase p {
+  font-size: 20px;
+}
+
+.btn {
+  display: inline-block;
+  background: #333;
+  color: #fff;
+  padding: 10px 20px;
+  margin-top: 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
